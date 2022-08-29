@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#9734; Массажный салон &#9734;</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+            <a href="#" class="logo">
+                <img src="img/kryl3.png" alt="Krylova" width="90px">
+            </a>
+            <ul class="site-menu">
+                <li><a href="services.html">Наши услуги</a></li>
+                <li><a href="adress.html">Наш адрес</a></li>   
+                <li><a href="revievs.html">Ваши отзывы</a></li>      
+            </ul>
+                <div class="color-panel">
+                    <div id="purple" data-color="#6a4ca3" onclick="changeColor('purple')"> </div>
+                    <div id="green" data-color="#3d9731" onclick="changeColor('green')"> </div>
+                    <div id="red" data-color="#7A3F3F" onclick="changeColor('red')"> </div>
+                </div>                
+        </nav>
+        <section class="about-us">
+            <h1>Масажный салон</h1>
+            <p>
+                Только профессиональный массаж и положительный результат
+            </p>
+            <a href="services.html" class="btn btn1">Записаться</a>
+        </section>
+        </div>
+    </header>
+    <main>
+       <section class="adventage">
+            <div class="container">
+               <a href="services.html" class="services">Наши услуги</a>
+               
+               <ul class="adventage-list">
+               <li class="adventage-massage-1">
+                Массаж тела
+               </li>
+               <li class="adventage-massage-2">
+                Массаж лица
+               </li>
+               <li class="adventage-massage-3">
+                Массаж ног
+               </li>
+               </ul>
+            </div>
+       </section>
+       <section class="our-cabinet">
+            <div class="container column-container">
+                <div class="left-column">
+                    <img src="img/MAR30066.png" alt="Наш кабинет" width="400px">
+                    <img src="img/MAR30052.png" alt="Наша косметика" width="400px">
+                </div>
+                <div class="right-column">
+                    <p class="lead">Позвольте позаботиться о Вас!
+                    </p>
+                    <p>Наш салон предлагает вам услуги массажа, который укрепляет здоровье, поднимает жизненный тонус, возвращает яркость жизни и хорошее самочувствие.                                                                     
+                    </p>
+                    <p>Мы используем только качественную косметику и современные методики массажа.
+                    </p>
+                </div>
+            </div>
+       </section>
+       <section class="massage-request">
+            <div class="container column-container">
+                <div class="left-column">
+                    <p class="lead">
+                        Оставьте заявку и мы <br> обязательно свяжемся <br> с Вами!
+                    </p> 
+                 </div>
+                <div class="right-column">
+                     <form action="mail:@mail.start" class="massage-request-form">
+                         <div>
+                           <label for="name" class="hidden">ФИО</label>
+                           <input type="text" name="name" id="name" placeholder="Ваше имя">
+                          </div>
+                         <div>
+                           <label for="phone" class="hidden">Контактный телефон</label>
+                           <input type="tel" name="phone" id="phone" placeholder="Ваш контактный телефон">
+                         </div>
+                         <div>
+                           <input type="checkbox" name="agreement" id="agreement">
+                           <label for="agreement">Согласен(а) на обработку персональных данных</label>                       
+                         </div>
+                         <div class="registration">
+                          <button type="submit" class="btn btn2" onclick="clicked(event)">Отправить</button>                                                  
+                         </div>
+                     </form>
+                 </div>
+             </div>
+         </section>       
+    </main>
+    <footer class="site-footer">
+        <div class="container footer">    
+            <div class="footer-menu">
+                <a href="adress.html" class="footer-submenu-title">&#127968;</a>
+                <a href="adress.html" class="footer-submenu-title">&#9990;</a>
+                <a href="adress.html" class="footer-submenu-title">&#9993;</a>               
+            </div>
+                <div class="copyrights">
+                    <p class="copyrights">
+                    &copy;Krylova MASSAGE, 2022.
+                    </p> 
+                </div>
+        </div>       
+    </footer>
+    <script async src="js/script.js"></script> 
+</body>
+</html>    
